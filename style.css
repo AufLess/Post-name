@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+#user-list {
+  width: 30%;
+  border-right: 1px solid #ccc;
+  padding-right: 20px;
+}
+
+.user-item {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #eee;
+  margin-bottom: 5px;
+  transition: background 0.2s;
+}
+
+.user-item:hover {
+  background: #f0f0f0;
+}
+
+#user-posts {
+  width: 65%;
+}
+
+.post-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
